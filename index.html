@@ -4,6 +4,7 @@
 	<title>CLEARCUT</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/baitap1.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -11,9 +12,9 @@
 </head>
 <body>
 <div class="backgr">
-	<div class="line-color"></div>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
+			<div class="line-color"></div>
 			<div class="col-md-12">
 				<div class="header">
 					<div class="navbar navbar-default">
@@ -21,7 +22,7 @@
 							<a href="" class="navbar-brand" >CLEARCUT <br/><span class="psd">Free PSD Website Template</span></a>
 						</div>
 
-						<div class="navbar-collapse">
+						 <div class="collapse navbar-collapse navbar-ex1-collapse">
 							<ul class="nav navbar-nav navbar-right">
 								<li class="active"><a href="">HOME</a></li>
 								<li><a href="">STYLE DEMO</a></li>
@@ -31,6 +32,20 @@
 								<li><a href="">GALLERY</a></li>
 							</ul>
 						</div>
+						
+					<div class="hidden-lg hidden-md hidden-sm">
+                        <div class="collapse navbar-collapse" id="navbar-mobile">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">STYKE DEMO</a></li>
+                                <li><a href="#">FULL WIDTH</a></li>
+                                <li><a href="#">DROPDOWN</a></li>
+                                <li><a href="#">PORTFOLI</a></li>
+                                <li><a href="#">GALLERY</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
 					</div>
 				</div>
 			</div>
@@ -106,7 +121,7 @@
 			<div class="line"></div>
 		</div>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-sx-12 col-sm-12 col-md-4 col-lg-4">
 				<p class="title">A Little About Us</p>
 				<br/>
 				<a href=""><img class="img_col1" src="img/1.jpg"/></a>
@@ -115,34 +130,57 @@
 				<p>Idenim semper pellente velis felit ac. Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.</p>
 				<a href="" class="a_col1">Read More About Us >></a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sx-12 col-sm-12 col-md-4 col-lg-4">
 				<p class="title">Some of Our Services</p>
 				<br/>
-				<p>
-					<img class="img_col2" src="img/1.jpg"></a>
-					<a class="title_col2" href="">Service Title</a><br>
-					Inteligula congue id elis donec scesag ittis intes id laoreet aenean.
-				</p>
 				
-				<p>
-					<img class="img_col2" src="img/1.jpg"></a>
-					<a class="title_col2" href="">Service Title</a><br>
-					Inteligula congue id elis donec scesag ittis intes id laoreet aenean.
-				</p>
-				<p>
-					<img class="img_col2" src="img/1.jpg"></a>
-					<a class="title_col2" href="">Service Title</a><br>
-					Inteligula congue id elis donec scesag ittis intes id laoreet aenean.
-				</p>
-				<p>
-					<img class="img_col2" src="img/1.jpg"></a>
-					<a class="title_col2" href="">Service Title</a><br>
-					Inteligula congue id elis donec scesag ittis intes id laoreet aenean.
-				</p>
-				<br/><br/>
+				<div class="row">
+					<div class="col-md-3">
+						<a href=""><img class="img_col2" src="img/1.jpg"></a>
+					</div>
+					<div class="col-md-9" id="service">
+						<a class="title_col2" href="">Service Title</a>
+						<br/>
+						<p>Inteligula congue id elis donec scesag ittis intes id laoreet aenean.</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-3">
+						<a href=""><img class="img_col2" src="img/1.jpg"></a>
+					</div>
+					<div class="col-md-9" id="service">
+						<a class="title_col2" href="">Service Title</a>
+						<br/>
+						<p>Inteligula congue id elis donec scesag ittis intes id laoreet aenean.</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-3">
+						<a href=""><img class="img_col2" src="img/1.jpg"></a>
+					</div>
+					<div class="col-md-9" id="service">
+						<a class="title_col2" href="">Service Title</a>
+						<br/>
+						<p>Inteligula congue id elis donec scesag ittis intes id laoreet aenean.</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-3">
+						<a href=""><img class="img_col2" src="img/1.jpg"></a>
+					</div>
+					<div class="col-md-9" id="service">
+						<a class="title_col2" href="">Service Title</a>
+						<br/>
+						<p>Inteligula congue id elis donec scesag ittis intes id laoreet aenean.</p>
+					</div>
+				</div>
+				<br/></br>
 				<a href="" class="a_col1">View All Of Our Services >></a>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sx-12 col-sm-12 col-md-4 col-lg-4">
 				<p class="title">What Our Clients Say</p>
 				<a href=""><img class="img_col2" src="img/quote.png"></a>
 				<a class="title_col2" href=""><h3>Tony Taker - CEO</h3></a>
@@ -159,75 +197,82 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
-			<div class="col-md-3">
-				<p class="title2">Company Details</p><hr>
-				<p class="color_w">Company Name</br>
-				Street Name $ Number Town</br>
-				Postcode/Zip
-				</p>
 	
-				<p class = "color_w">
-				Tel:xxxxxxxxxx</br>
-				Fax:xxxxxxxxxx</br>
-				Email: <a class="color_g" href="">contact@mydomain.com</a></p>
-				
-				<p class="tt">Office Hours</p>
-				<p class="color_w">Monday-Friday: 08:00-17:30</br>
-				Saturday: 08:00-13:00</p>
-			</div>
-			<div class="col-md-3">
-				<p class="title2">Stay Social</p><hr>
-				<a href=""><img class="img-circle"  src="img/social-1.png"></a>
-				<a href="" class = "a_link"> Get linked up in LikedIn </a>
-				<hr>
-				<a href=""><img class="img-circle"  src="img/social-2.png"></a>
-				<a href="" class = "a_link"> Keep up with our Tweets </a>
-				<hr>
-				<a href=""><img class="img-circle"  src="img/social-3.png"></a>
-				<a href="" class = "a_link"> Photo in a pinterest </a>											
-				<hr>
-				<a href=""><img class="img-circle"  src="img/social-5.png"></a>
-				<a href="" class = "a_link"> RSS Feed </a>			
-				
-			</div>
-			<div class="col-md-3">
-				<p class="title2">From The Blog</p><hr>
-				<p class="tt">Blog Post Title</p>
-				<p class="color_w">Post by admin on oo.ooo.oo</br>
-				Vestibulumaccumsan egestibulum eu justo convallis augue esstass aenean elit intesque sed faccillispede estinulum</br>
-				<a href="" class="a_col1">Read More >></a>
-				</p>
-				</br>
-				<p class="color_w">Post by admin on oo.ooo.oo</br>
-				Vestibulumaccumsan egestibulum eu justo convallis augue esstass aenean elit intesque sed faccillispede estinulum</br>
-				<a href="" class="a_col1">Read More >></a>
-				</p>		
-			</div>
-			<div class="col-md-3">
-				<p class="title2">Contact Us</p><hr>
-				
-				<form role="form">
-					<div class="form-group">
-						<input type="email" class="form-control" id="email" placeholder="Name">
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="pwd" placeholder="Email">
-					</div>
-					<div class="form-group">
-						<textarea type="email" class="form-control" id="message" placeholder="Massage"></textarea>
-					</div>
+	
+	<div class="footer">
+		<div class="container">
+		<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="title2">Company Details</p><hr>
+					<p class="color_w">Company Name</br>
+					Street Name $ Number Town</br>
+					Postcode/Zip
+					</p>
+		
+					<p class = "color_w">
+					Tel:xxxxxxxxxx</br>
+					Fax:xxxxxxxxxx</br>
+					Email: <a class="color_g" href="">contact@mydomain.com</a></p>
 					
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
+					<p class="tt">Office Hours</p>
+					<p class="color_w">Monday-Friday: 08:00-17:30</br>
+					Saturday: 08:00-13:00</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="title2">Stay Social</p><hr>
+					<a href=""><img class="img-circle"  src="img/social-1.png"></a>
+					<a href="" class = "a_link"> Get linked up in LikedIn </a>
+					<hr>
+					<a href=""><img class="img-circle"  src="img/social-2.png"></a>
+					<a href="" class = "a_link"> Keep up with our Tweets </a>
+					<hr>
+					<a href=""><img class="img-circle"  src="img/social-3.png"></a>
+					<a href="" class = "a_link"> Photo in a pinterest </a>											
+					<hr>
+					<a href=""><img class="img-circle"  src="img/social-5.png"></a>
+					<a href="" class = "a_link"> RSS Feed </a>			
+					
+				</div>
+				 <div class="clearfix hidden-lg hidden-md hidden-xs"></div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="title2">From The Blog</p><hr>
+					<p class="tt">Blog Post Title</p>
+					<p class="color_w">Post by admin on oo.ooo.oo</br>
+					Vestibulumaccumsan egestibulum eu justo convallis augue esstass aenean elit intesque sed faccillispede estinulum</br>
+					<a href="" class="a_col1">Read More >></a>
+					</p>
+					</br>
+					<p class="color_w">Post by admin on oo.ooo.oo</br>
+					Vestibulumaccumsan egestibulum eu justo convallis augue esstass aenean elit intesque sed faccillispede estinulum</br>
+					<a href="" class="a_col1">Read More >></a>
+					</p>		
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="title2">Contact Us</p><hr>
+					
+					<form role="form">
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="pwd" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<textarea type="email" class="form-control" id="message" placeholder="Massage"></textarea>
+						</div>
+
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<footer>
+					<hr>
+					<p>Copyright @ 2013 Domain Name - Alrights Reserved</p>
+				</footer>
 			</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<footer>
-				<hr>
-				<p>Copyright @ 2013 Domain Name - Alrights Reserved</p>
-			</footer>
+		</div>
 		</div>
 	</div>
 </div>
